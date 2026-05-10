@@ -23,15 +23,15 @@ The core hypothesis—that ambient RF entropy can reliably distinguish between p
 
 #### Figure 1: RF-Entropy Across Contexts
 This boxplot clearly shows that the variance of Bluetooth signals (RF-Entropy) is a statistically significant feature for separating a quiet room from a busy cafe or a moving subway.
-![Figure 1: RF-Entropy](images/Fig1_Environmental_Entropy.png)
+![Figure 1: RF-Entropy](https://github.com/Ziqian-Huang0607/AuraOS/blob/main/Fig1_Environmental_Entropy.png)
 
 #### Figure 2: Context Classification Feature Space
 This scatter plot demonstrates that Device Density and RF Signal Variance create clean, classifiable clusters. The red and blue dashed lines represent the simple thresholds used by the AuraOS Brain to make its decisions.
-![Figure 2: Feature Space](images/Fig2_Feature_Space.png)
+![Figure 2: Feature Space](https://github.com/Ziqian-Huang0607/AuraOS/blob/main/Fig2_Feature_Space.png)
 
 #### Figure 3: System Overhead
 This bar chart proves the efficiency of AuraOS. Passive BLE scanning consumes negligible CPU resources (<0.5%) compared to other context-sensing modalities like camera vision or microphone audio, making it suitable for 24/7 background operation.
-![Figure 3: System Overhead](images/Fig3_System_Overhead.png)
+![Figure 3: System Overhead](https://github.com/Ziqian-Huang0607/AuraOS/blob/main/Fig3_System_Overhead.png)
 
 ## ⚙️ Configuration & User Control
 AuraOS is controlled via a simple `config.json` file in the project root. This allows you to customize behavior without touching the source code.
