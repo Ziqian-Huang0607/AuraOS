@@ -1,0 +1,16 @@
+{
+    "autoModeEnabled": false,
+    "deepWorkConfig": {
+        "appsToClose": [
+            "Messages",
+            "Slack",
+            "Discord",
+            "WeChat"
+        ]
+    },
+    "transitConfig": {
+        "appsToClose": [
+            "Mail"
+        ]
+    }
+}
